@@ -1,18 +1,22 @@
+// Estilo del cuerpo
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background: seagreen;
 }
+// Estilo del titulo
 h1 {
     color: #fff;
     text-align: center;
 }
+// Estilo del cointainer
 .container {
     display: flex;
     justify-content: space-between;
     padding-top: 2em;
 }
+// Caracteristica generales de los item
 .item {
     text-align: center;
     background: darken(seagreen,10);
@@ -35,6 +39,7 @@ h1 {
         width: 100%;
     }
 }
+// Animacion de cada uno de los bordes.
 .uno {
     &::before{
     left: 0;
